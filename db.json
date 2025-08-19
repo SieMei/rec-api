@@ -1,0 +1,54 @@
+{
+  "inspections": [
+    {
+      "id": 1,
+      "type": "Schade",
+      "address": "Kerkstraat 12, Weesp",
+      "location": "Keuken",
+      "date": "2025-08-01",
+      "urgent": true,
+      "description": "Waterlekkage onder de gootsteen",
+      "photos": []
+    },
+    {
+      "id": 2,
+      "type": "Onderhoud",
+      "address": "Stationsplein 7, Weesp",
+      "location": "Dak",
+      "date": "2025-07-28",
+      "urgent": false,
+      "description": "Kapotte dakpannen vastgesteld",
+      "costEstimate": "1500+"
+    },
+    {
+      "id": 3,
+      "type": "Installatie",
+      "address": "Herengracht 21, Weesp",
+      "location": "Woonkamer",
+      "date": "2025-07-25",
+      "status": "Goedgekeurd",
+      "systemType": "Verwarming",
+      "notes": "Systeem getest en werkt naar behoren"
+    },
+    {
+      "id": 4,
+      "type": "Modificatie",
+      "address": "Oudegracht 5, Weesp",
+      "location": "Badkamer",
+      "date": "2025-07-22",
+      "executedBy": "Huurder",
+      "description": "Niet-goedgekeurde verwijdering van een muur",
+      "action": "Nader inspecteren"
+    },
+    {
+      "id": 5,
+      "type": "Schade",
+      "address": "Nieuwstraat 33, Weesp",
+      "location": "Garage",
+      "date": "2025-07-20",
+      "urgent": true,
+      "description": "Brandschade aan bedrading",
+      "photos": []
+    }
+  ]
+}
