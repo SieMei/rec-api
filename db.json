@@ -1,54 +1,214 @@
 {
-  "inspecties": [
+  "users": [
     {
-      "id": 1,
-      "type": "Schade",
+      "id": "u1",
+      "name": "J. Inspecteur",
+      "role": "inspector",
+      "avatar": "/img/u1.png",
+      "preferences": {
+        "theme": "light",
+        "notifications": true
+      }
+    }
+  ],
+  "lookups": {
+    "damageKind": [
+      "moedwillig",
+      "slijtage",
+      "geweld",
+      "normaal_gebruik",
+      "calamiteit",
+      "anders"
+    ],
+    "maintenanceKind": [
+      "schilderwerk",
+      "houtrot",
+      "elektra",
+      "leidingwerk",
+      "beglazing"
+    ],
+    "costEstimate": [
+      "0-500",
+      "500-1500",
+      "1500+"
+    ],
+    "systemType": [
+      "koeling",
+      "verwarming",
+      "luchtverversing",
+      "elektra",
+      "beveiliging"
+    ],
+    "executedBy": [
+      "huurder",
+      "aannemer",
+      "onbekend"
+    ],
+    "action": [
+      "accepteren",
+      "laten_keuren",
+      "laten_verwijderen",
+      "laten_aanpassen_en_keuren"
+    ],
+    "status": [
+      "assigned",
+      "in_progress",
+      "submitted",
+      "approved",
+      "archived"
+    ]
+  },
+  "inspections": [
+    {
+      "id": "I-1",
       "address": "Kerkstraat 12, Weesp",
-      "location": "Keuken",
-      "date": "2025-08-01",
-      "urgent": true,
-      "description": "Waterlekkage onder de gootsteen",
-      "photos": []
+      "unit": "Bovenwoning",
+      "createdAt": "2025-08-01T09:00:00Z",
+      "updatedAt": "2025-08-01T09:30:00Z",
+      "assignedTo": "u1",
+      "status": "in_progress",
+      "purpose": [
+        "schade"
+      ],
+      "incidents": [
+        {
+          "id": "INC-1",
+          "type": "damage",
+          "location": "Keuken",
+          "date": "2025-08-01",
+          "urgent": true,
+          "isNew": true,
+          "damageKind": "calamiteit",
+          "description": "Waterlekkage onder de gootsteen",
+          "photos": [],
+          "extraFields": [
+            {
+              "key": "leidingdiameter",
+              "value": "32mm"
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": 2,
-      "type": "Onderhoud",
+      "id": "I-2",
       "address": "Stationsplein 7, Weesp",
-      "location": "Dak",
-      "date": "2025-07-28",
-      "urgent": false,
-      "description": "Kapotte dakpannen vastgesteld",
-      "costEstimate": "1500+"
+      "createdAt": "2025-07-28T10:00:00Z",
+      "updatedAt": "2025-07-28T10:15:00Z",
+      "assignedTo": "u1",
+      "status": "assigned",
+      "purpose": [
+        "onderhoud"
+      ],
+      "incidents": [
+        {
+          "id": "INC-2",
+          "type": "maintenance",
+          "location": "Dak",
+          "date": "2025-07-28",
+          "urgent": false,
+          "maintenanceKind": "beglazing",
+          "costEstimate": "1500+",
+          "photos": [],
+          "extraFields": [
+            {
+              "key": "aantal_pannen",
+              "value": "12"
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": 3,
-      "type": "Installatie",
+      "id": "I-3",
       "address": "Herengracht 21, Weesp",
-      "location": "Woonkamer",
-      "date": "2025-07-25",
-      "status": "Goedgekeurd",
-      "systemType": "Verwarming",
-      "notes": "Systeem getest en werkt naar behoren"
+      "createdAt": "2025-07-25T09:00:00Z",
+      "updatedAt": "2025-07-25T09:05:00Z",
+      "assignedTo": "u1",
+      "status": "submitted",
+      "purpose": [
+        "installaties"
+      ],
+      "incidents": [
+        {
+          "id": "INC-3",
+          "type": "system",
+          "location": "Woonkamer",
+          "date": "2025-07-25",
+          "systemType": "verwarming",
+          "reportedIssues": "",
+          "testProcedureUrl": "/kb/testprocedure-verwarming.pdf",
+          "approved": true,
+          "notes": "Systeem getest en werkt naar behoren",
+          "photos": [],
+          "extraFields": []
+        }
+      ]
     },
     {
-      "id": 4,
-      "type": "Modificatie",
+      "id": "I-4",
       "address": "Oudegracht 5, Weesp",
-      "location": "Badkamer",
-      "date": "2025-07-22",
-      "executedBy": "Huurder",
-      "description": "Niet-goedgekeurde verwijdering van een muur",
-      "action": "Nader inspecteren"
+      "createdAt": "2025-07-22T08:00:00Z",
+      "updatedAt": "2025-07-22T08:30:00Z",
+      "assignedTo": "u1",
+      "status": "in_progress",
+      "purpose": [
+        "modificaties"
+      ],
+      "incidents": [
+        {
+          "id": "INC-4",
+          "type": "modification",
+          "location": "Badkamer",
+          "date": "2025-07-22",
+          "executedBy": "huurder",
+          "modDescription": "Niet-goedgekeurde verwijdering van een muur",
+          "action": "laten_keuren",
+          "notes": "",
+          "existingDocsUrl": "/kb/modificaties-bestaand.pdf",
+          "photos": [],
+          "extraFields": []
+        }
+      ]
     },
     {
-      "id": 5,
-      "type": "Schade",
+      "id": "I-5",
       "address": "Nieuwstraat 33, Weesp",
-      "location": "Garage",
-      "date": "2025-07-20",
-      "urgent": true,
-      "description": "Brandschade aan bedrading",
-      "photos": []
+      "createdAt": "2025-07-20T11:00:00Z",
+      "updatedAt": "2025-07-20T11:10:00Z",
+      "assignedTo": "u1",
+      "status": "in_progress",
+      "purpose": [
+        "schade"
+      ],
+      "incidents": [
+        {
+          "id": "INC-5",
+          "type": "damage",
+          "location": "Garage",
+          "date": "2025-07-20",
+          "urgent": true,
+          "isNew": true,
+          "damageKind": "anders",
+          "description": "Brandschade aan bedrading",
+          "photos": [],
+          "extraFields": []
+        }
+      ]
+    }
+  ],
+  "knowledgeBase": [
+    {
+      "id": "KB-001",
+      "title": "Testprocedure verwarming",
+      "type": "pdf",
+      "url": "/kb/testprocedure-verwarming.pdf"
+    },
+    {
+      "id": "KB-002",
+      "title": "Bestaande situatie & gedocumenteerde modificaties",
+      "type": "pdf",
+      "url": "/kb/modificaties-bestaand.pdf"
     }
   ]
 }
