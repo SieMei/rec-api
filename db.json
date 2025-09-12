@@ -51,11 +51,11 @@
       "laten_aanpassen_en_keuren"
     ],
     "status": [
-      "assigned",
-      "in_progress",
-      "submitted",
-      "approved",
-      "archived"
+      "toegewezen",
+      "in uitvoering",
+      "ingediend",
+      "goedgekeurd",
+      "gearchiveerd"
     ]
   },
   "inspections": [
@@ -96,7 +96,7 @@
       "createdAt": "2025-07-28T10:00:00Z",
       "updatedAt": "2025-07-28T10:15:00Z",
       "assignedTo": "u1",
-      "status": "assigned",
+      "status": "toegewezen",
       "purpose": [
         "onderhoud"
       ],
@@ -125,7 +125,7 @@
       "createdAt": "2025-07-25T09:00:00Z",
       "updatedAt": "2025-07-25T09:05:00Z",
       "assignedTo": "u1",
-      "status": "submitted",
+      "status": "ingediend",
       "purpose": [
         "installaties"
       ],
@@ -151,7 +151,7 @@
       "createdAt": "2025-07-22T08:00:00Z",
       "updatedAt": "2025-07-22T08:30:00Z",
       "assignedTo": "u1",
-      "status": "in_progress",
+      "status": "in uitvoering",
       "purpose": [
         "modificaties"
       ],
@@ -163,7 +163,7 @@
           "date": "2025-07-22",
           "executedBy": "huurder",
           "modDescription": "Niet-goedgekeurde verwijdering van een muur",
-          "action": "laten_keuren",
+          "action": "laten keuren",
           "notes": "",
           "existingDocsUrl": "/kb/modificaties-bestaand.pdf",
           "photos": [],
@@ -177,7 +177,7 @@
       "createdAt": "2025-07-20T11:00:00Z",
       "updatedAt": "2025-07-20T11:10:00Z",
       "assignedTo": "u1",
-      "status": "in_progress",
+      "status": "in uitvoering",
       "purpose": [
         "schade"
       ],
