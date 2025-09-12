@@ -64,7 +64,7 @@
       "address": "Kerkstraat 12, Weesp",
       "unit": "Bovenwoning",
       "createdAt": "2025-07-01T09:00:00Z",
-      "updatedAt": "2025-07-01T09:30:00Z",
+      "updatedAt": "2025-07-05T09:30:00Z",
       "assignedTo": "u1",
       "status": "afgerond",
       "purpose": [
@@ -75,7 +75,7 @@
           "id": "INC-1",
           "type": "damage",
           "location": "Keuken",
-          "date": "2025-08-01",
+          "date": "2025-07-01",
           "urgent": true,
           "isNew": true,
           "damageKind": "calamiteit",
@@ -151,7 +151,7 @@
       "createdAt": "2025-07-22T08:00:00Z",
       "updatedAt": "2025-07-22T08:30:00Z",
       "assignedTo": "u1",
-      "status": "in uitvoering",
+      "status": "ingediend",
       "purpose": [
         "modificaties"
       ],
