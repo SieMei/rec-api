@@ -107,7 +107,7 @@
           "location": "Dak",
           "date": "2025-07-28",
           "urgent": false,
-          "maintenanceKind": "beglazing",
+          "maintenanceKind": "dakbedekking",
           "costEstimate": "1500+",
           "photos": [],
           "extraFields": [
