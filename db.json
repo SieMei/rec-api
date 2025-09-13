@@ -16,7 +16,7 @@
       "moedwillig",
       "slijtage",
       "geweld",
-      "normaal_gebruik",
+      "normaal gebruik",
       "calamiteit",
       "anders"
     ],
@@ -25,7 +25,8 @@
       "houtrot",
       "elektra",
       "leidingwerk",
-      "beglazing"
+      "beglazing",
+      "dakbedekking"
     ],
     "costEstimate": [
       "0-500",
