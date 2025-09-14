@@ -96,30 +96,9 @@
       "id": "I-2",
       "address": "Stationsplein 7, Weesp",
       "createdAt": "2025-07-28T10:00:00Z",
-      "updatedAt": "2025-07-28T10:15:00Z",
       "assignedTo": "u1",
       "status": "toegewezen",
-      "purpose": [
-        "onderhoud"
-      ],
-      "incidents": [
-        {
-          "id": "INC-2",
-          "type": "Onderhoud",
-          "location": "Dak",
-          "date": "2025-07-28",
-          "urgent": false,
-          "maintenanceKind": "dakbedekking",
-          "costEstimate": "1500+",
-          "photos": [],
-          "extraFields": [
-            {
-              "key": "aantal pannen",
-              "value": "12"
-            }
-          ]
-        }
-      ]
+      "incidents": []
     },
     {
       "id": "I-3",
@@ -151,52 +130,17 @@
       "id": "I-4",
       "address": "Oudegracht 5, Weesp",
       "createdAt": "2025-07-22T08:00:00Z",
-      "updatedAt": "2025-07-22T08:30:00Z",
       "assignedTo": "u1",
-      "status": "ingediend",
-      "purpose": [
-        "modificaties"
-      ],
-      "incidents": [
-        {
-          "id": "INC-4",
-          "type": "Modificatie",
-          "location": "Badkamer",
-          "date": "2025-07-22",
-          "executedBy": "huurder",
-          "modDescription": "Niet-goedgekeurde verwijdering van een muur",
-          "action": "laten keuren",
-          "notes": "",
-          "existingDocsUrl": "/kb/modificaties-bestaand.pdf",
-          "photos": [],
-          "extraFields": []
-        }
-      ]
+      "status": "toegewezen",
+      "incidents": []
     },
     {
-      "id": "I-5",
-      "address": "Nieuwstraat 33, Weesp",
-      "createdAt": "2025-07-20T11:00:00Z",
-      "updatedAt": "2025-07-20T11:10:00Z",
+      "id": "I-7",
+      "address": "Lange Nieuwstraat 10, Weesp",
+      "createdAt": "2025-08-12T08:30:00Z",
       "assignedTo": "u1",
-      "status": "in uitvoering",
-      "purpose": [
-        "schade"
-      ],
-      "incidents": [
-        {
-          "id": "INC-5",
-          "type": "damage",
-          "location": "Garage",
-          "date": "2025-07-20",
-          "urgent": true,
-          "isNew": true,
-          "damageKind": "anders",
-          "description": "Brandschade aan bedrading",
-          "photos": [],
-          "extraFields": []
-        }
-      ]
+      "status": "toegewezen",
+      "incidents": []
     }
   ],
   "knowledgeBase": [
