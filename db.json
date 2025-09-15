@@ -48,9 +48,9 @@
     ],
     "action": [
       "accepteren",
-      "laten_keuren",
-      "laten_verwijderen",
-      "laten_aanpassen_en_keuren"
+      "laten keuren",
+      "laten verwijderen",
+      "laten aanpassen en keuren"
     ],
     "status": [
       "toegewezen",
