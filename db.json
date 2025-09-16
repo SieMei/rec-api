@@ -152,9 +152,15 @@
     },
     {
       "id": "KB-002",
-      "title": "Bestaande situatie & gedocumenteerde modificaties",
+      "title": "Richtlijnen fotodocumentatie",
       "type": "pdf",
-      "url": "/kb/modificaties-bestaand.pdf"
+      "url": "/kb/fotodocumentatie.pdf"
+    },
+    {
+      "id": "KB-003",
+      "title": "NEN-normen en richtlijnen",
+      "type": "pdf",
+      "url": "/kb/nen-normen.pdf"
     }
   ]
 }
